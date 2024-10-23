@@ -1,0 +1,28 @@
+# Ignorar arquivos de notebooks Jupyter que não foram salvos
+*.ipynb_checkpoints
+
+# Ignorar ambientes virtuais
+venv/
+env/
+ENV/
+.env
+
+# Ignorar arquivos de configuração do Jupyter
+.jupyter/
+.ipynb_checkpoints/
+
+# Ignorar arquivos de configuração do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos temporários e de backup
+*~ 
+*.bak
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar dados de entrada ou saída
+data/
+output/
+results/
